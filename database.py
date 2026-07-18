@@ -8,11 +8,11 @@ def get_connection():
     try:
         conn = pyodbc.connect(
             "DRIVER={ODBC Driver 17 for SQL Server};"
-            "SERVER=YOUR_SERVER_NAME;"
-            "DATABASE=YOUR_DATABASE_NAME;"
-            "UID=YOUR_USERNAME;"
-            "PWD=YOUR_PASSWORD;"
-            "TrustServerCertificate=yes;"
+            "SERVER=sreeji, 1475;"
+            "DATABASE=WAQTH;"
+            "UID=sa;"
+            "PWD=QDCqdc123;"
+            "TrustServerCertificate=no;"
         )
 
         return conn
