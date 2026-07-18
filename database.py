@@ -12,7 +12,7 @@ def get_connection():
             "DATABASE=WAQTH;"
             "UID=sa;"
             "PWD=QDCqdc123;"
-            "TrustServerCertificate=no;"
+            "TrustServerCertificate=yes;"
         )
 
         return conn
